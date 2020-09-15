@@ -16,7 +16,7 @@ namespace FizzBuzz
                 }
 
                 var result = FizzBuzzUtil.GetFizzBuzzCollection(count);
-                Console.WriteLine(string.Join(", ", result));
+                Console.WriteLine(string.Join(" ", result));
             }
             catch (Exception ex)
             {
